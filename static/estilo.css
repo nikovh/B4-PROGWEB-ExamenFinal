@@ -1,0 +1,140 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+}
+
+.containerMenu{
+    max.width: 400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+
+}
+
+.botonCuadrado{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    background-color: #8a2ddb;
+    border-radius: 0px;
+    line-height: 100px;
+    font-weight: bold;
+    font-size:16px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#morado{
+    background-color: #8a2ddb;
+}
+
+#verde{
+    background-color: #70f00e;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+
+label{
+    display: block;
+    width: 200px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    padding:50px;
+    background-color:#fff;
+    border-radius:5px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form{
+    width: 200px;
+    margin: auto;
+    padding-bottom:10px;
+}
+
+
+input[type="text"]{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="number"]{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="password"]{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button{
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.link{
+    font-size: 14px;
+    background-color: #ff8300;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container form a{
+    padding: 15px 50px;
+    margin: 10px;
+    line-height: 60px;
+}
+a:hover {
+    background-color: #e74c3c;
+}
+
+form button:hover{
+    background-color: cornflowerblue;
+}
+

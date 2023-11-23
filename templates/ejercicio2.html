@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="/static/estilo.css">
+</head>
+<body>
+<div class="container">
+    <h2>Inicio de sesión</h2>
+    <form action="/ejercicio2" method="POST">
+        <div class="form">
+            <label>Ingresa tu nombre</label>
+            <input type="text" name="nombre" required>
+        </div>
+        <div class="form">
+            <label>Ingresa tu contraseña</label>
+            <input type="password" name="password" required>
+        </div>
+        <div class="form">
+            <button type="submit">Verificar</button>
+        </div>
+    </form>
+    {% if nombre %}
+    <div>
+        <h3>Bienvenido {{tipo_usuario }} {{ nombre }} </h3>
+        <br>
+        <a class="link" href="/">Inicio</a>
+    </div>
+    {% endif %}
+    {% if error %}
+        <h3>{{ error }}</h3>
+    {% endif %}
+</div>
+</body>
+</html>
